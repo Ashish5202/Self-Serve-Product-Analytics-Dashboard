@@ -1,5 +1,7 @@
 # Self-Serve-Product-Analytics-Dashboard
 
+Working App --> https://self-serve-dashboard.lovable.app/auth
+
 Problem: Product and Growth teams rely on fragmented reports and manual analysis to measure feature adoption and retention, slowing experimentation and roadmap decisions. Getting a funnel or cohort view means waiting on a data analyst, and different teams calculate metrics like "active user" differently — leading to conflicting numbers.
 Goal: Let PMs and Growth stakeholders self-serve answers on adoption, retention, and experiment performance — cutting time-to-insight from days to minutes.
 North Star Metric: Weekly Active Insight Generation — number of distinct analyses run by non-analyst users per week.
