@@ -26,3 +26,15 @@ How It's Built:
 Events → ingestion (Kafka/SDK) → warehouse (Postgres/Snowflake) → Python + SQL transformation into funnel/cohort/adoption/experiment tables → a central metrics layer (single definition of "active user," etc.) → FastAPI backend with Redis caching → React + Recharts frontend with filtering and shareable saved views.
 Rollout: Event audit & metric alignment (wks 1–2) → MVP pilot with 1–2 teams (wks 3–8) → experimentation + sharing (wks 9–12) → company-wide rollout with RBAC (wks 13–16).
 Key Risks: low adoption if UI is too complex, data-trust issues if numbers don't reconcile with existing reports, and performance at scale (mitigated by pre-aggregation and caching).
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/10f3c96d-9324-4950-8376-18ef56745604" />
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/ae7157e4-9e8e-4984-9773-27ae2635a4d9" />
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/5b24343e-e53f-40fc-917b-a3977450ad5e" />
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/bb9b6069-5b02-4169-94fe-3903ef00f128" />
+
+
+
+
